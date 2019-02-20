@@ -30,7 +30,7 @@ class ArrayStack : public IStack<T>
         virtual void                pop();
         virtual bool                empty() const;
         virtual size_type           size() const;
-        
+
     private:
         T*         mp_buffer{nullptr};
         size_type  m_capacity{size_type{}};
