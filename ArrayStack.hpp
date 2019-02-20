@@ -118,7 +118,7 @@ void ArrayStack<T>::pop()
 template <class T>
 bool ArrayStack<T>::empty() const
 {
-    return size() == 0;
+    return m_top == 0;
 }
 
 template <class T>
